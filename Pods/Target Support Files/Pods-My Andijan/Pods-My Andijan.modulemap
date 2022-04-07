@@ -1,0 +1,6 @@
+framework module Pods_My_Andijan {
+  umbrella header "Pods-My Andijan-umbrella.h"
+
+  export *
+  module * { export * }
+}
