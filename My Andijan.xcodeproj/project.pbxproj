@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11A515E966E86FFAB4AE983 /* Pods_My_Andijan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70BF93ABB413905BC38C467 /* Pods_My_Andijan.framework */; };
+		FB2F68F527EB96B400229EEC /* AppTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F68F427EB96B400229EEC /* AppTextFields.swift */; };
+		FB4E714127FC13DF005C3E50 /*  Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB4E714327FC13DF005C3E50 /*  Localizable.strings */; };
+		FB4E714827FC1526005C3E50 /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4E714727FC1526005C3E50 /* LocalizationSystem.swift */; };
+		FB7F502627EAE8AE0032BD0C /* AppLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F502527EAE8AE0032BD0C /* AppLabels.swift */; };
+		FB7F502827EAE9DF0032BD0C /* AppButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F502727EAE9DF0032BD0C /* AppButtons.swift */; };
+		FBA6208627F0BA690060B95F /* CurrencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6208527F0BA690060B95F /* CurrencyController.swift */; };
+		FBA6208827F0BA7D0060B95F /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA6208727F0BA7D0060B95F /* CurrencyCell.swift */; };
+		FBA620BA27F233680060B95F /* networkError.json in Resources */ = {isa = PBXBuildFile; fileRef = FBA620B927F233680060B95F /* networkError.json */; };
+		FBAFD90427EEEDEB0044670B /* ChooseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAFD90327EEEDEB0044670B /* ChooseController.swift */; };
+		FBAFD90627EEEF4B0044670B /* ChooseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAFD90527EEEF4B0044670B /* ChooseCell.swift */; };
+		FBAFD90827EEEF890044670B /* ChooseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAFD90727EEEF890044670B /* ChooseModel.swift */; };
+		FBAFD90B27EF00EF0044670B /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAFD90A27EF00EF0044670B /* SideMenuController.swift */; };
+		FBAFD90F27EF78E90044670B /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAFD90E27EF78E90044670B /* NetworkModel.swift */; };
+		FBAFD91127EF78F50044670B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAFD91027EF78F50044670B /* NetworkManager.swift */; };
+		FBAFD91327EF80600044670B /* AppURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAFD91227EF80600044670B /* AppURLs.swift */; };
+		FBCBE70627F70322001D8605 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCBE70527F70322001D8605 /* MenuCell.swift */; };
+		FBEA030227F8602B009F83D2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA030127F8602A009F83D2 /* Constants.swift */; };
+		FBEA030427F885E5009F83D2 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEA030327F885E5009F83D2 /* InfoController.swift */; };
 		FBEDADE727E9DCF2001729C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDADE627E9DCF2001729C8 /* AppDelegate.swift */; };
 		FBEDADE927E9DCF2001729C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDADE827E9DCF2001729C8 /* SceneDelegate.swift */; };
 		FBEDADEB27E9DCF2001729C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDADEA27E9DCF2001729C8 /* ViewController.swift */; };
@@ -14,9 +33,40 @@
 		FBEDADF127E9DCF2001729C8 /* My_Andijan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBEDADEF27E9DCF2001729C8 /* My_Andijan.xcdatamodeld */; };
 		FBEDADF327E9DCF3001729C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEDADF227E9DCF3001729C8 /* Assets.xcassets */; };
 		FBEDADF627E9DCF3001729C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEDADF427E9DCF3001729C8 /* LaunchScreen.storyboard */; };
+		FBF91ACD27ED94AA0009D59F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBF91ACC27ED94AA0009D59F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61072B53C104E885CEC87FE1 /* Pods-My Andijan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Andijan.debug.xcconfig"; path = "Target Support Files/Pods-My Andijan/Pods-My Andijan.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC665C790CFBF94256F1DF4 /* Pods-My Andijan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Andijan.release.xcconfig"; path = "Target Support Files/Pods-My Andijan/Pods-My Andijan.release.xcconfig"; sourceTree = "<group>"; };
+		E70BF93ABB413905BC38C467 /* Pods_My_Andijan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Andijan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB09579427F37D1C00C7755A /* uz */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz; path = uz.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FB09579527F37D1D00C7755A /* uz */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz; path = uz.lproj/Main.strings; sourceTree = "<group>"; };
+		FB09579627F37D5200C7755A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FB09579727F37D5200C7755A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		FB09579827F37DFA00C7755A /* uz-Cyrl-UZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uz-Cyrl-UZ"; path = "uz-Cyrl-UZ.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FB09579927F37DFA00C7755A /* uz-Cyrl-UZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uz-Cyrl-UZ"; path = "uz-Cyrl-UZ.lproj/Main.strings"; sourceTree = "<group>"; };
+		FB2F68F427EB96B400229EEC /* AppTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextFields.swift; sourceTree = "<group>"; };
+		FB4E714227FC13DF005C3E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/ Localizable.strings"; sourceTree = "<group>"; };
+		FB4E714427FC13E0005C3E50 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "ru.lproj/ Localizable.strings"; sourceTree = "<group>"; };
+		FB4E714527FC13E1005C3E50 /* uz */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz; path = "uz.lproj/ Localizable.strings"; sourceTree = "<group>"; };
+		FB4E714627FC13E2005C3E50 /* uz-Cyrl-UZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uz-Cyrl-UZ"; path = "uz-Cyrl-UZ.lproj/ Localizable.strings"; sourceTree = "<group>"; };
+		FB4E714727FC1526005C3E50 /* LocalizationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
+		FB7F502527EAE8AE0032BD0C /* AppLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabels.swift; sourceTree = "<group>"; };
+		FB7F502727EAE9DF0032BD0C /* AppButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtons.swift; sourceTree = "<group>"; };
+		FBA6208527F0BA690060B95F /* CurrencyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyController.swift; sourceTree = "<group>"; };
+		FBA6208727F0BA7D0060B95F /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		FBA620B927F233680060B95F /* networkError.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = networkError.json; sourceTree = "<group>"; };
+		FBAFD90327EEEDEB0044670B /* ChooseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseController.swift; sourceTree = "<group>"; };
+		FBAFD90527EEEF4B0044670B /* ChooseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCell.swift; sourceTree = "<group>"; };
+		FBAFD90727EEEF890044670B /* ChooseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseModel.swift; sourceTree = "<group>"; };
+		FBAFD90A27EF00EF0044670B /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		FBAFD90E27EF78E90044670B /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		FBAFD91027EF78F50044670B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FBAFD91227EF80600044670B /* AppURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppURLs.swift; sourceTree = "<group>"; };
+		FBCBE70527F70322001D8605 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		FBEA030127F8602A009F83D2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FBEA030327F885E5009F83D2 /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
 		FBEDADE327E9DCF2001729C8 /* My Andijan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Andijan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEDADE627E9DCF2001729C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBEDADE827E9DCF2001729C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +76,7 @@
 		FBEDADF227E9DCF3001729C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBEDADF527E9DCF3001729C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBEDADF727E9DCF3001729C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF91ACC27ED94AA0009D59F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +84,99 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11A515E966E86FFAB4AE983 /* Pods_My_Andijan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE693CA64CC64B02CF176C8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E70BF93ABB413905BC38C467 /* Pods_My_Andijan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F067F71B8F3E9A0CCE301D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61072B53C104E885CEC87FE1 /* Pods-My Andijan.debug.xcconfig */,
+				6AC665C790CFBF94256F1DF4 /* Pods-My Andijan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB4E713E27FC13A4005C3E50 /* Supported Files + LocalizationFile */ = {
+			isa = PBXGroup;
+			children = (
+				FB4E714327FC13DF005C3E50 /*  Localizable.strings */,
+				FB4E714727FC1526005C3E50 /* LocalizationSystem.swift */,
+			);
+			path = "Supported Files + LocalizationFile";
+			sourceTree = "<group>";
+		};
+		FB7F502427EAE8990032BD0C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FB7F502527EAE8AE0032BD0C /* AppLabels.swift */,
+				FB2F68F427EB96B400229EEC /* AppTextFields.swift */,
+				FB7F502727EAE9DF0032BD0C /* AppButtons.swift */,
+				FBEA030127F8602A009F83D2 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FBAFD90227EEEDC30044670B /* ChoosePage */ = {
+			isa = PBXGroup;
+			children = (
+				FBAFD90927EF00D70044670B /* SideMenu */,
+				FBAFD90327EEEDEB0044670B /* ChooseController.swift */,
+				FBAFD90527EEEF4B0044670B /* ChooseCell.swift */,
+				FBAFD90727EEEF890044670B /* ChooseModel.swift */,
+			);
+			path = ChoosePage;
+			sourceTree = "<group>";
+		};
+		FBAFD90927EF00D70044670B /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FBAFD90A27EF00EF0044670B /* SideMenuController.swift */,
+				FBCBE70527F70322001D8605 /* MenuCell.swift */,
+				FBEA030327F885E5009F83D2 /* InfoController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		FBAFD90D27EF78D50044670B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				FBAFD90E27EF78E90044670B /* NetworkModel.swift */,
+				FBAFD91027EF78F50044670B /* NetworkManager.swift */,
+				FBAFD91227EF80600044670B /* AppURLs.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		FBD1B8F127F0B2F700E3A1C9 /* 2.CurrencyPage */ = {
+			isa = PBXGroup;
+			children = (
+				FBAFD90D27EF78D50044670B /* NetworkManager */,
+				FBA6208527F0BA690060B95F /* CurrencyController.swift */,
+				FBA6208727F0BA7D0060B95F /* CurrencyCell.swift */,
+				FBA620B927F233680060B95F /* networkError.json */,
+			);
+			path = 2.CurrencyPage;
+			sourceTree = "<group>";
+		};
 		FBEDADDA27E9DCF2001729C8 = {
 			isa = PBXGroup;
 			children = (
 				FBEDADE527E9DCF2001729C8 /* My Andijan */,
 				FBEDADE427E9DCF2001729C8 /* Products */,
+				F067F71B8F3E9A0CCE301D23 /* Pods */,
+				BE693CA64CC64B02CF176C8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +191,53 @@
 		FBEDADE527E9DCF2001729C8 /* My Andijan */ = {
 			isa = PBXGroup;
 			children = (
-				FBEDADE627E9DCF2001729C8 /* AppDelegate.swift */,
-				FBEDADE827E9DCF2001729C8 /* SceneDelegate.swift */,
-				FBEDADEA27E9DCF2001729C8 /* ViewController.swift */,
-				FBEDADEC27E9DCF2001729C8 /* Main.storyboard */,
+				FB4E713E27FC13A4005C3E50 /* Supported Files + LocalizationFile */,
+				FB7F502427EAE8990032BD0C /* Constants */,
+				FBEDADFF27E9DDBF001729C8 /* Pages */,
+				FBEDADFE27E9DDB3001729C8 /* View */,
+				FBEDADFD27E9DDAA001729C8 /* App */,
 				FBEDADF227E9DCF3001729C8 /* Assets.xcassets */,
-				FBEDADF427E9DCF3001729C8 /* LaunchScreen.storyboard */,
 				FBEDADF727E9DCF3001729C8 /* Info.plist */,
+				FBF91ACC27ED94AA0009D59F /* GoogleService-Info.plist */,
 				FBEDADEF27E9DCF2001729C8 /* My_Andijan.xcdatamodeld */,
 			);
 			path = "My Andijan";
+			sourceTree = "<group>";
+		};
+		FBEDADFD27E9DDAA001729C8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FBEDADE627E9DCF2001729C8 /* AppDelegate.swift */,
+				FBEDADE827E9DCF2001729C8 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FBEDADFE27E9DDB3001729C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBEDADF427E9DCF3001729C8 /* LaunchScreen.storyboard */,
+				FBEDADEC27E9DCF2001729C8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FBEDADFF27E9DDBF001729C8 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1B8F127F0B2F700E3A1C9 /* 2.CurrencyPage */,
+				FBAFD90227EEEDC30044670B /* ChoosePage */,
+				FBEDAE0027E9DDC5001729C8 /* LaunchPage */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		FBEDAE0027E9DDC5001729C8 /* LaunchPage */ = {
+			isa = PBXGroup;
+			children = (
+				FBEDADEA27E9DCF2001729C8 /* ViewController.swift */,
+			);
+			path = LaunchPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBEDADFA27E9DCF3001729C8 /* Build configuration list for PBXNativeTarget "My Andijan" */;
 			buildPhases = (
+				B511846E580718DE3CEB267B /* [CP] Check Pods Manifest.lock */,
 				FBEDADDF27E9DCF2001729C8 /* Sources */,
 				FBEDADE027E9DCF2001729C8 /* Frameworks */,
 				FBEDADE127E9DCF2001729C8 /* Resources */,
+				D79A349FA407C3B3F66BD052 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,6 +284,9 @@
 			knownRegions = (
 				en,
 				Base,
+				uz,
+				ru,
+				"uz-Cyrl-UZ",
 			);
 			mainGroup = FBEDADDA27E9DCF2001729C8;
 			productRefGroup = FBEDADE427E9DCF2001729C8 /* Products */;
@@ -129,12 +304,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBEDADF627E9DCF3001729C8 /* LaunchScreen.storyboard in Resources */,
+				FBA620BA27F233680060B95F /* networkError.json in Resources */,
+				FBF91ACD27ED94AA0009D59F /* GoogleService-Info.plist in Resources */,
 				FBEDADF327E9DCF3001729C8 /* Assets.xcassets in Resources */,
+				FB4E714127FC13DF005C3E50 /*  Localizable.strings in Resources */,
 				FBEDADEE27E9DCF2001729C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B511846E580718DE3CEB267B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Andijan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D79A349FA407C3B3F66BD052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Andijan/Pods-My Andijan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Andijan/Pods-My Andijan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-My Andijan/Pods-My Andijan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBEDADDF27E9DCF2001729C8 /* Sources */ = {
@@ -142,19 +362,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBEDADEB27E9DCF2001729C8 /* ViewController.swift in Sources */,
+				FB4E714827FC1526005C3E50 /* LocalizationSystem.swift in Sources */,
+				FB7F502827EAE9DF0032BD0C /* AppButtons.swift in Sources */,
 				FBEDADF127E9DCF2001729C8 /* My_Andijan.xcdatamodeld in Sources */,
+				FBAFD90B27EF00EF0044670B /* SideMenuController.swift in Sources */,
+				FB2F68F527EB96B400229EEC /* AppTextFields.swift in Sources */,
+				FBAFD90427EEEDEB0044670B /* ChooseController.swift in Sources */,
+				FBA6208827F0BA7D0060B95F /* CurrencyCell.swift in Sources */,
+				FB7F502627EAE8AE0032BD0C /* AppLabels.swift in Sources */,
+				FBAFD90827EEEF890044670B /* ChooseModel.swift in Sources */,
+				FBAFD90627EEEF4B0044670B /* ChooseCell.swift in Sources */,
 				FBEDADE727E9DCF2001729C8 /* AppDelegate.swift in Sources */,
+				FBEA030427F885E5009F83D2 /* InfoController.swift in Sources */,
 				FBEDADE927E9DCF2001729C8 /* SceneDelegate.swift in Sources */,
+				FBA6208627F0BA690060B95F /* CurrencyController.swift in Sources */,
+				FBAFD91127EF78F50044670B /* NetworkManager.swift in Sources */,
+				FBAFD90F27EF78E90044670B /* NetworkModel.swift in Sources */,
+				FBCBE70627F70322001D8605 /* MenuCell.swift in Sources */,
+				FBAFD91327EF80600044670B /* AppURLs.swift in Sources */,
+				FBEA030227F8602B009F83D2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		FB4E714327FC13DF005C3E50 /*  Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4E714227FC13DF005C3E50 /* en */,
+				FB4E714427FC13E0005C3E50 /* ru */,
+				FB4E714527FC13E1005C3E50 /* uz */,
+				FB4E714627FC13E2005C3E50 /* uz-Cyrl-UZ */,
+			);
+			name = " Localizable.strings";
+			sourceTree = "<group>";
+		};
 		FBEDADEC27E9DCF2001729C8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FBEDADED27E9DCF2001729C8 /* Base */,
+				FB09579527F37D1D00C7755A /* uz */,
+				FB09579727F37D5200C7755A /* ru */,
+				FB09579927F37DFA00C7755A /* uz-Cyrl-UZ */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -163,6 +413,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				FBEDADF527E9DCF3001729C8 /* Base */,
+				FB09579427F37D1C00C7755A /* uz */,
+				FB09579627F37D5200C7755A /* ru */,
+				FB09579827F37DFA00C7755A /* uz-Cyrl-UZ */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -235,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -288,11 +543,13 @@
 		};
 		FBEDADFB27E9DCF3001729C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61072B53C104E885CEC87FE1 /* Pods-My Andijan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My Andijan/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,11 +572,13 @@
 		};
 		FBEDADFC27E9DCF3001729C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC665C790CFBF94256F1DF4 /* Pods-My Andijan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My Andijan/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

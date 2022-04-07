@@ -7,14 +7,22 @@
 
 import UIKit
 import CoreData
+import Foundation
+import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        IQKeyboardManager.shared.enable = true
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+          let initialViewController = storyboard.instantiateViewController(withIdentifier: "vc")
+          self.window?.rootViewController = initialViewController
+       
         return true
     }
 
